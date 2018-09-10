@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    background-color:#232323;
+    position: fixed;
+    top: 0;
+}
+
+.container{
+    text-align: center;
+    height: 40px;
+    vertical-align: 100%;
+}
+
+button {
+    margin-top:10px;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: 13px;
+	transition: all 0.3s;
+	/*suport for safary and mozila browsers*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#photoDiv {
+    margin-top:40px;
+}
+
+/********************** Media Queries ***************************/
+
+/* Media Query Iphone 5/SE Version */
+@media only screen and (max-width: 600) {
+    button {
+        font-size: 14px !important;
+    }
+  
+}
+/****************************************************************/
