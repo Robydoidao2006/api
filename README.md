@@ -2,8 +2,8 @@
 https://robydoidao2006.github.io/api/.
 
 ## What the Project looks like
-![](newyork.jpg)
-![](hotair.jpg)
+![](1.jpg)
+![](2.jpg)
 
 ## Aditional Information
 - This project is using a html5 tag called "canvas", The projects will display a set amount of animated circles, that bounces 
