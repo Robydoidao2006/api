@@ -12,6 +12,7 @@ anything in the search field and will get 25 images under some criterias.
 ## This project was built using the floowing technologies 
 - html5
 - Javascript
+- CSS3
 - Deploy on github
 
 ## How to Run this Project Localy
