@@ -8,7 +8,7 @@
 
         // API key
         var APIKey        = '&api_key=a4a481f4f29aab2f7d12b1c3b9a16886';
-        var Secret        = '748de40600fa779a';
+        // var Secret        = '748de40600fa779a';
         // Search Criteria 
         var photoQuantity = '&per_page=' + 25;
         var safeSearch    = '&safe_search=' + 1; // 1 for safe - 2 for moderate - 3 for restricted.
@@ -18,7 +18,7 @@
         var sort          = '&sort=relevance'; // Returns relevant search
 
         // Public API url plus search
-        var queryURL = 'https://api.flickr.com/services/rest/' + method +''+ APIKey +''+ sort +""+ userSearch +''+ safeSearch +''+ photoQuantity +''+ format +'';
+        var queryURL = 'https://api.flickr.com/services/rest/' + method +''+ APIKey +''+ sort +''+ userSearch +''+ safeSearch +''+ photoQuantity +''+ format +'';
 
         // AJAX call.
         $.ajax({
@@ -35,7 +35,7 @@
                    // Placing the photo inside a div element
                     $("#photoDiv").prepend('<img src="https://farm' + farmId + '.staticflickr.com/' + serverId + '/' + id + '_' + secret + '.jpg"/>');
 
-                });
+                }); 
         
         });// Response close.
 
