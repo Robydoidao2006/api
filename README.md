@@ -9,7 +9,7 @@ https://robydoidao2006.github.io/api/.
 - This project uses an API AJAX call and response to get data from the Flickr API, The user can type
 anything in the search field and will get 25 images under some criterias.
 
-## This project was built using the floowing technologies 
+## This project was built using the following technologies 
 - html5
 - Javascript
 - CSS3
